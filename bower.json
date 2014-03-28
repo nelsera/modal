@@ -1,0 +1,6 @@
+{
+  "name": "modal",
+  "dependencies": {
+    "fancybox": "~2.1.5"
+  }
+}
