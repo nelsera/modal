@@ -5,9 +5,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="modal">
+    <a href="#">Open modal</a>
+    <div id="modal" style="display: none">
         <h1>Example</h1>
     </div>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="modal.js"></script>
+    <script>
+        $('a').on('click', function () {
+            Modal.fancybox.open('#modal', {});
+        });
+    </script>
 </body>
 </html>
